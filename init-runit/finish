@@ -1,0 +1,2 @@
+#!/bin/sh
+exec sh -c "chpst -u $USR:$GRP /usr/bin/profile-sync-daemon unsync"
